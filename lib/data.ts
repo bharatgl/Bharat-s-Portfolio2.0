@@ -2,9 +2,10 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import Landings from "@/public/Landings.jpg";
+import Foodbybharat from "@/public/Foodbybharat.png";
+import BazaarBoost from "@/public/BazaarBoost.jpg";
+import FusionSync from "@/public/FusionSync.png";
 
 export const links = [
   {
@@ -79,25 +80,38 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Landings Page Collection",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "I worked as a Front-end developer on this project  for month. Users can upload and filter new landing pages on basis of various criteria.",
+    tags: ["React", , "MongoDB", "Tailwind"],
+    imageUrl: Landings,
+    githubUrl: "/https://bharatgllanding.vercel.app/",
+    projectUrl: "/",
   },
   {
-    title: "rmtDev",
+    title: "Fusion Sync",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Elevate your team's potential with our Workforce Management Software. Streamline operations, empower employees, and drive success.: MVP created in skillvalley",
+    tags: ["React", , "MongoDB", "Tailwind"],
+    imageUrl: FusionSync,
+    githubUrl: "/https://github.com/bharatgl/Fusion-Sync",
+    projectUrl: "/https://fusionsync.vercel.app/",
   },
   {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    title: "BazaarBoost",
+    description: "Fullstack Ecommerce for shopping",
+    tags: ["React", "Tailwind", "Redux", "Node.Js", "ExpressJs", "MongoDB"],
+    imageUrl: BazaarBoost,
+    githubUrl: "/https://github.com/bharatgl/BazaarBoost",
+    projectUrl: "/https://bazaar-boost.vercel.app/",
+  },
+  {
+    title: "FoodByBharat",
+    description: "Full Stack Food Delievery App.",
+    tags: ["React", "Tailwind", "Redux", "Node.Js", "ExpressJs", "MongoDB"],
+    imageUrl: Foodbybharat,
+    githubUrl: "/https://github.com/bharatgl/foodbybharat",
+    projectUrl: "/https://foodbybharat.netlify.app/",
   },
 ] as const;
 

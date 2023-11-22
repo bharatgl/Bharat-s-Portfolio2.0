@@ -4,6 +4,8 @@ import { useRef } from "react";
 import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
+import { FaLink  } from "react-icons/fa";
+import { FaGithubSquare } from "react-icons/fa";
 
 type ProjectProps = (typeof projectsData)[number];
 
@@ -12,6 +14,8 @@ export default function Project({
   description,
   tags,
   imageUrl,
+  githubUrl,
+  projectUrl,
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -30,12 +34,30 @@ export default function Project({
       }}
       className="group mb-3 sm:mb-8 last:mb-0"
     >
-      <section className="bg-gray-100 max-w-[42rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:h-[20rem] hover:bg-gray-200 transition sm:group-even:pl-8 dark:text-white dark:bg-white/10 dark:hover:bg-white/20">
+      <section className="bg-gray-100 max-w-[42rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:h-[24rem] hover:bg-gray-200 transition sm:group-even:pl-8 dark:text-white dark:bg-white/10 dark:hover:bg-white/20">
         <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]">
           <h3 className="text-2xl font-semibold">{title}</h3>
+          <div className="flex flex-row my-2  gap-1 px-4 text-lg font-medium">
+            {" "}
+            <a
+              className="sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 bg-white p-3 md:p-4 text-gray-700 hover:text-gray-950 mr-1 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer border-black dark:bg-white/10 dark:text-white/60"
+              href={projectUrl}
+              target="_blank"
+            >
+              <FaLink className="h-3 w-3 md:h-4 md:w-4 lg:h-5 lg:w-5" />
+            </a>
+            <a
+              className="sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 bg-white p-3 md:p-4 text-gray-700 hover:text-gray-950 mr-1 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer border-black dark:bg-white/10 dark:text-white/60"
+              href={githubUrl}
+              target="_blank"
+            >
+              <FaGithubSquare className="h-3 w-3 md:h-4 md:w-4 lg:h-5 lg:w-5" />
+            </a>
+          </div>
           <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70">
             {description}
           </p>
+
           <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
             {tags.map((tag, index) => (
               <li
