@@ -53,7 +53,7 @@ export const experiencesData = [
     date: "Aug,2023 - Oct,2023",
   },
   {
-    title: "Brighltanes Technologies Pvt. Ltd - Fullstack & Product Intern",
+    title: "Brightlanes Technologies Pvt. Ltd - Fullstack & Product Intern",
     location: "Remote",
     description:
       "As a full-stack developer, I built a coaching institute dashboard using the MERN Stack. Implemented features like Excel uploads, data visualization, CRUD operations, and user authentication. Enhanced the interface based on user feedback, achieving a 50% boost in user engagement. Ensured seamless performance for an optimal user experience.",
