@@ -36,21 +36,28 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Kapture CX - Software Development Engineer",
+    location: "Bengaluru, India",
+    description:
+      "Leading frontend architecture with microfrontends and AI powered features for customer support solutions.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Dec 2023 - present",
+  },
+  {
+    title: "Skillvalley - SDE Intern",
+    location: "Remote",
+    description:
+      "Built an HR and payroll platform using React, Node.js and MongoDB with a MERN based payslip generator.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Aug 2023 - Nov 2023",
+  },
+  {
     title: "Freelancing",
     location: " Remote",
     description: "Working as a Freelancer fullstack Developer",
     // icon: React.createElement(LuGraduationCap),
     icon: React.createElement(CgWorkAlt),
     date: "Jan, 2023 - present",
-  },
-  {
-    title: "SkillValley - FullStack Developer",
-    location: "Delhi, IN (Remote)",
-    description:
-      "I successfully spearheaded a three-month MVP Development initiative, leading a team of five. We presented our product to over 20 founders, and our team earned recognition as a top-performing team.",
-    // icon: React.createElement(LuGraduationCap),
-    icon: React.createElement(CgWorkAlt),
-    date: "Aug,2023 - Oct,2023",
   },
   {
     title: "Brightlanes Technologies Pvt. Ltd - Fullstack & Product Intern",
@@ -116,25 +123,22 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
   "JavaScript",
   "TypeScript",
-  "React",
+  "React.js",
   "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
   "Redux",
+  "HTML5",
+  "CSS3",
+  "Tailwind CSS",
+  "Material UI",
+  "Shadcn",
   "Bootstrap",
-  "SQL",
-  // "GraphQL",
-  // "Apollo",
-  "Express",
-  "PostgreSQL",
-  // "Python",
-  "Java",
-  "Framer Motion",
+  "WebSocket",
+  "Generative AI",
+  "Chatbot configurations",
+  "Git",
+  "Linux",
+  "Responsive Design",
+  "Cross-Browser Compatibility",
 ] as const;
