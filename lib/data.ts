@@ -52,12 +52,36 @@ export const experiencesData = [
     date: "Aug 2023 - Nov 2023",
   },
   {
-    title: "B.Tech. Mechanical Engineering (Minor CS)",
-    location: "Guru Nanak Dev Engineering College, Punjab",
+    title: "Freelancing",
+    location: " Remote",
+    description: "Working as a Freelancer fullstack Developer",
+    // icon: React.createElement(LuGraduationCap),
+    icon: React.createElement(CgWorkAlt),
+    date: "Jan, 2023 - present",
+  },
+  {
+    title: "Brightlanes Technologies Pvt. Ltd - Fullstack & Product Intern",
+    location: "Remote",
     description:
-      "Graduated with majors in Mechanical Engineering and minor in Computer Science.",
+      "As a full-stack developer, I built a coaching institute dashboard using the MERN Stack. Implemented features like Excel uploads, data visualization, CRUD operations, and user authentication. Enhanced the interface based on user feedback, achieving a 50% boost in user engagement. Ensured seamless performance for an optimal user experience.",
+    icon: React.createElement(CgWorkAlt),
+    date: "March, 2023 - May, 2023",
+  },
+  {
+    title: "DESI QNA - Full-Stack Developer",
+    location: "Remote",
+    description:
+      "I led design and development for a Desi QnA website section, ensuring responsiveness. Conducted penetration tests for tool security, integrated Recaptcha, and collaborated on a critical front-end project with cross-functional teams.",
+    icon: React.createElement(FaReact),
+    date: "Sept, 2022 - March, 2023",
+  },
+  {
+    title: "Newton School Bootcamp",
+    location: "Remote",
+    description:
+      "I graduated from a fullstack bootcamp where I learned about the HTML, CSS, Javascript, React, Nodejs , Express , Java , Data structures and Algorithm",
     icon: React.createElement(LuGraduationCap),
-    date: "2022",
+    date: "Dec,2021 - June, 2023",
   },
 ] as const;
 
