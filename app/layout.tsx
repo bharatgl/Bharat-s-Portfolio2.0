@@ -11,7 +11,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Bharat | Personal Portfolio",
-  description: "Bharat is a full-stack developer with 2 years of freelance and internship experience.",
+  description:
+    "Software Development Engineer at Kapture CX with 2+ years of experience building scalable web applications with AI integration.",
 };
 
 export default function RootLayout({
