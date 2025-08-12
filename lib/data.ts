@@ -6,6 +6,7 @@ import Landings from "@/public/Landings.jpg";
 import Foodbybharat from "@/public/Foodbybharat.png";
 import BazaarBoost from "@/public/BazaarBoost.jpg";
 import FusionSync from "@/public/FusionSync.png";
+import PitchBot from "@/public/PitchBot.svg";
 
 export const links = [
   {
@@ -62,6 +63,16 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "PitchBot",
+    description:
+      "An AI-powered bot that crafts startup pitches and even pitches itself.",
+    tags: ["Next.js", "TypeScript", "OpenAI", "Tailwind"],
+    imageUrl: PitchBot,
+    githubUrl: "/",
+    projectUrl:
+      "https://www.linkedin.com/posts/bharatgl_built-a-pitchbot-then-used-it-to-pitch-activity-7355273169575825409-Kb_f",
+  },
   {
     title: "Landings Page Collection",
     description:
